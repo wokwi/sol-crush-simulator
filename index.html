@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sol Crasher Simulator</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="gray" shadow></a-plane>
+      <a-entity id="sol-crusher" position="0 1.2 -2" scale="3 3 3" shadow></a-entity>
+      <a-sky color="black"></a-sky>
+    </a-scene>
+    <script src="coordinates.js"></script>
+    <script src="simulator3d.js"></script>
+  </body>
+</html>
